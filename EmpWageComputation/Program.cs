@@ -7,8 +7,8 @@ namespace EmpWageComputation
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Emp Wage Computation");
-            EmpWage empwage = new EmpWage();
-            empwage.PartTime();
+            EmployeeWage employeewage = new EmployeeWage();
+            employeewage.WagesForMonth();
         }
     }
 }
